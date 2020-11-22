@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+main: net.eve0415.spigot.Template.ExamplePlugin
+api-version: 1.16
+load: postworld
+author: eve0415
+commands:
+  example:
+    description: An example to register help command
+    usage: /example help
